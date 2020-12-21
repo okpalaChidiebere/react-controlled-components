@@ -1,5 +1,6 @@
 import React from 'react';
 import ShoppingItem from './ShoppingItem';
+import PropTypes from 'prop-types';
 
 const ListShoppingItems = props => {
     return (
@@ -8,5 +9,9 @@ const ListShoppingItems = props => {
         </ol>
     )
 }
+
+ListShoppingItems.propTypes = {
+    items: PropTypes.array.isRequired,
+};
   
   export default ListShoppingItems  

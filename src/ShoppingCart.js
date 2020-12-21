@@ -1,6 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class ShoppingCart extends React.Component{
+
+    static propTypes = {
+        handleOnSubmit: PropTypes.func.isRequired,
+    }
 
     state = {
         newShoppingItem: ''
