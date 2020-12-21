@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DisplayShopping from './DisplayShopping'
 
 class App extends Component {
 
@@ -35,6 +36,7 @@ class App extends Component {
           <p className="echo">Echo:</p>
           <p>{this.state.query}</p>
         </div>
+        <DisplayShopping />
       </div>
     );
   }
