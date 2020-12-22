@@ -84,3 +84,11 @@ button:disabled {
   opacity: 0.7;
   cursor: not-allowed;
 }
+
+.smallButton {
+  font-size: 17px;
+}
+
+.error {
+  color: red;
+}

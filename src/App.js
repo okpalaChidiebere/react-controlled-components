@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DisplayShopping from './DisplayShopping'
+import Game from "./Game";
 
 class App extends Component {
 
@@ -37,6 +38,7 @@ class App extends Component {
           <p>{this.state.query}</p>
         </div>
         <DisplayShopping />
+        <Game />
       </div>
     );
   }
