@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import DisplayShopping from './DisplayShopping'
 import Game from "./Game";
+import DisplayChat from './DisplayChat'
 
 class App extends Component {
 
@@ -39,6 +40,7 @@ class App extends Component {
         </div>
         <DisplayShopping />
         <Game />
+        <DisplayChat />
       </div>
     );
   }
